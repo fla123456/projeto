@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+}
+
+
+header{
+    padding: 15px;
+    text-align: center;
+    background-color: #8328DC;
+}
+a{
+   
+    color: white;
+    padding: 10px;
+    
+}
+h1{
+        color: white;
+}
+body{
+   background-size: 200%;
+    background-position: center;
+    background: linear-gradient(darkblue, black) ;
+
+}
+h2{
+    color: white;
+}
+li{
+    color: white;
+}
+p{
+    color: white;
+    text-align: justify;
+
+}
+footer{
+    color: black;
+}
+.corpo{
+    height: 400px ;
+}
+.traçado a{
+    text-decoration: none;
+
+}
+.trailer{
+    margin: 30px 0px 0px 100px;
+    border-radius: 5%;
+    
+}
+
+.trailer a{
+    background-color:  #8328DC;
+    color:white;
+    border-radius: 5px;
+    text-decoration: none;
+    
+}
+
+.trailer a:hover{
+    background-color:  black;
+    color:#8328DC;
+    border-radius: 5px;
+}
+
+
+
+.hulk{
+    float: left;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+.text{
+    padding-top: 40px;
+}
+
+.hulk2{
+padding-top: 100px;
+float: left;
+padding-left: 15px;
+
+    
+}
+
+.hulk3{
+    float: left;
+    padding-left: 15px; 
+    padding-right: 10px;
+   
+}
+
+.capitao{
+    float: left;
+    padding-left: 15px; 
+    padding-right: 10px;
+}
+
+.capitaoamerica{
+    background-size: 200%;
+    background-position: center;
+    background-image: linear-gradient(darkblue, black,#8328DC );
+
+}
+
+.miranha{
+    float: left;
+    padding-top: 20px;
+    padding-left: 28px;
+    padding-right: 10px;
+    
+}
+
+.miranha2{
+    float: left;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+.miranha3{
+    float: left;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+.miranha4{
+    float: left;
+    padding-top: 20px;
+    padding-left: 15px; 
+    padding-right: 10px;
+}
+
+.miranha5{
+    float: left;
+    padding-top: 20px;
+    padding-left: 15px; 
+    padding-right: 10px;
+}
+
+.miranha6{
+    float: left;
+    padding-top: 20px;
+    padding-left: 15px; 
+    padding-right: 10px;
+}
+
+.miranha7{
+    float: left;
+    padding-top: 20px;
+    padding-left: 15px; 
+    padding-right: 10px;
+}
+
+.miranha8{
+    float: left;
+    padding-top: 20px;
+    padding-left: 15px; 
+    padding-right: 10px;
+}
+
+.menu{
+    text-align: center;
+    padding: 10px;
+}
+
+button{
+    background-color: white;
+    border-radius: 5px;
+    height: 25px;
+}
+
+.voltar{
+    float: right;
+
+}
+
+.voltar a{
+    color: black;
+}
+
+footer{
+   text-align: center;
+   color: white;
+   clear: both; 
+   background-color: #8328DC;
+   font-size: 15px;
+}
+
+
+
+
+
+
+
+
+

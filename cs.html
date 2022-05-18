@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="formulário.js"></script>
+    
+    <style>
+        header{
+            padding: 20px;
+            text-align: center;
+            background-color: darkblue;
+        }
+        a{
+            background-color: darkblue;
+            color: white;
+            padding: 10px;
+        }
+        h1{
+                color: white;
+        }
+        body{
+           background-size: 200%;
+            background-position: center;
+    
+    
+        }
+        h2{
+            color: black;
+        }
+        li{
+            color: black;
+        }
+        p{
+            color: black;
+        }
+        footer{
+            color: black;
+        }
+        .corpo{
+            height: 400px ;
+        }
+        .traçado a{
+            text-decoration: none;
+
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header class="traçado"><!------inicio do cabeçario------>
+        <!----Link Interno---->
+    <a href="cs.html">Login</a>
+    <a href="thor.html">Thor</a>
+    <a href="homem de ferro.html">Homem-de-Ferro</a>
+    <a href="cap.america.html">Capitão America</a>
+    <a href="hulk.html">Hulk</a>
+    <a href="viuva negra.html">Viuva Negra</a>
+    <a href="cap.marvel.html">Capitã Marvel</a>
+    <a href="miranha.html"> Homem-Aranha</a>
+    <a href="g.galáxia.html">Guardiões da Galáxia</a>
+    <a href="homem formiga.html">Homem-Formiga</a>
+    <a href="vingadores.html">Os Vingadores</a>
+    
+    <!----Link externo---->
+    
+    <!------ target="_blank abre uma nova guia" ------>  
+    </header><!------final do cabeçario------>
+
+    <form method="post" action="salvar.php" onsubmit="return validar()">
+
+        <br><br><br><br>
+        <label>NOME:<span>*</span></label>
+        <input type="text" name="nome" placeholder="Informe seu nome completo" required size="51">
+        <br><br>
+        <label>E-MAIL:<span>*</span> </label>
+        <input type="text" name="email" placeholder="Informe seu E-mail" required size="50">
+        <br><br>
+        <label>SENHA:<span>*</span> </label>
+        <input type="text" name="senha" placeholder="Digite sua senha" required>
+        <br><br>
+        <label>CONFIRME SUA SENHA:<span>*</span> </label>
+        <input type="text" name="confirme" placeholder="Digite sua senha" required>
+        <br><br>
+       
+        <br><br>
+        <input type="submit" value="Cadastrar-se">
+
+    
+
+       
+
+    
+    
+   
+    
+    </form>
+        
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    
+
+    <div class="corpo"></div>
+<footer>
+ <center> <h3> todos os direitos reservados</h3></center> 
+    
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
